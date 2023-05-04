@@ -5,12 +5,11 @@ import TransactionsTable from './TransactionsTable'
 const Transactions = () => {
   return (
     <div className='flex h-auto w-screen'>
-        <div className='w-[16%]'><Sidebar /></div>
+        <div className='w-[16%] fixed'><Sidebar /></div>
 
 
-        <div className='w-[84%] p-10'>
-            
-            <div className='flex items-center gap-20 mb-10'>
+        <div className='w-[84%] p-10 overflow-y-auto ml-[16%]'>            
+            <div className='flex items-center gap-20 mb-10 '>
                 <h1 className='text-5xl font-normal'>Your Transactions</h1>
 
                 <form className='w-[50%]'>   

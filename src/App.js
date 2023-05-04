@@ -16,33 +16,33 @@ function App() {
         <Routes>
           <Route path='/' element={<Landing />} />
 
-          
-
           <Route path='/Dashboard' element={
             <Protected>
               <Dashboard />
-            </Protected>} 
+            </Protected>
+          } 
           />
           
-          <Route path='/Transaction' element={
+          <Route path='/transactions' element={
             <Protected>
               <Transactions />
-            </Protected>} 
+            </Protected>
+          } 
           />
 
-          <Route path='/People' element={
+          <Route path='/people' element={
             <Protected>
               <People />
-            </Protected>} 
+            </Protected>
+          } 
           />
 
-          <Route path='/TransferMoney' element={
+          <Route path='/transfer' element={
             <Protected>
               <TransferMoney />
-            </Protected>} 
+            </Protected>
+          } 
           />
-
-    
 
         </Routes>
 

@@ -9,10 +9,10 @@ const Dashboard = () => {
 
   return (
     <div className='flex h-auto w-screen'>
-        <div className='w-[16%]'><Sidebar /></div>
+        <div className='w-[20%]'><Sidebar /></div>
 
 
-        <div className='w-[84%] flex items-center justify-center'>
+        <div className='w-[80%] flex items-center justify-center'>
 
             <h1 className='text-7xl font-thin  '>
 
